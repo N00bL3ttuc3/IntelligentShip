@@ -1,4 +1,4 @@
-搭建环境：Ubuntu16.04+ROS
+#### 搭建环境：Ubuntu16.04+ROS
 
 #### 一. 安装相关工具
 
@@ -134,8 +134,9 @@
 
    ```
    sudo gedit ~/.bashrc
-   添加：source ./catkin_ws/devel/setup.sh
-   		 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:catkin_ws所在路径/src/ORB_SLAM2/Examples/ROS
+   添加：
+   	source ./catkin_ws/devel/setup.sh
+   	export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:catkin_ws所在路径/src/ORB_SLAM2/Examples/ROS
    保存退出后：source ~/.bashrc
    ```
 
@@ -151,7 +152,7 @@
    运行./build_ros.sh时，可能会保错，若是因为找不到libboost_system.so、libboost_system.so.1.58.0、libboost_filesystem.so和libboost_filesystem.so.1.58.0，则进行以下操作
 
    ```
-   locate  boost_system
+   locate boost_system
    locate boost_filesystem
    ```
 
@@ -231,4 +232,3 @@
     ```
 
     
-
