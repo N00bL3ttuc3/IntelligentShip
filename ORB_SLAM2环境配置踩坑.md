@@ -135,8 +135,8 @@
    ```
    sudo gedit ~/.bashrc
    添加：
-   	source ./catkin_ws/devel/setup.sh
-   	export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:catkin_ws所在路径/src/ORB_SLAM2/Examples/ROS
+   source ./catkin_ws/devel/setup.sh
+   export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:catkin_ws所在路径/src/ORB_SLAM2/Examples/ROS
    保存退出后：source ~/.bashrc
    ```
 
@@ -231,4 +231,3 @@
     rosrun ORB_SLAM2 Mono xxxxxx/catkin_ws/src/ORB_SLAM2/Vocabulary/ORBvoc.txt xxxxxx/catkin_ws/src/ORB_SLAM2/Examples/ROS/ORB_SLAM2/Asus.yaml
     ```
 
-    
