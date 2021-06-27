@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/control/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/getyaw/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/gnss2tfpose/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/robot_voice/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/rostostm32/include/**",
+        "/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/send_path/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

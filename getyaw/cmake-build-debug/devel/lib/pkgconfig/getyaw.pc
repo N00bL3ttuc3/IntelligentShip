@@ -1,0 +1,8 @@
+prefix=/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/getyaw/cmake-build-debug/devel
+
+Name: getyaw
+Description: Description of getyaw
+Version: 0.0.0
+Cflags: -I/home/sheffieldwang/Code/ROS_WorkSpace/catkin_learn/src/getyaw/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy sensor_msgs std_msgs tf
