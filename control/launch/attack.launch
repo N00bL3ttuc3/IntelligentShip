@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="control" type="attack.py" name="attack" output="screen">
+    </node>
+</launch>

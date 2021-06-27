@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="control" type="rec_control.py" name="rec_control" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,17 @@
+<launch>
+    <include file="$(find rostostm32)/launch/ros2stm32.launch" />
+    <!-- <include file="$(find gnss2tfpose)/launch/nmea_navsat.launch" /> 
+    <include file="$(find gnss2tfpose)/launch/gnss2tfpose.launch" /> -->
+    <!-- <include file="$(find send_path)/launch/send_path.launch" /> -->
+    <include file="$(find control)/launch/stanley.launch" />
+    <include file="$(find control)/launch/rec.launch" />    
+    <include file="$(find control)/launch/video.launch" />   
+    <include file="$(find control)/launch/attack.launch" />   
+    <include file="$(find control)/launch/record.launch" />   
+    <include file="$(find control)/launch/convert.launch" />    
+    <include file="$(find getyaw)/launch/getyaw.launch" />
+    <!-- <include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_server_node.launch" /> -->
+    <include file="$(find slamware_ros_sdk)/launch/slamware_ros_sdk_intergated_with_teb.launch" />
+    <include file="$(find read_cam)/launch/cam.launch" />
+
+</launch>

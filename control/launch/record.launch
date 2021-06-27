@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="control" type="autorecord.py" name="autorecord" output="screen">
+    </node>
+</launch>

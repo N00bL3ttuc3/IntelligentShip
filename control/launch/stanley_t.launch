@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="control" type="stanley_control_t.py" name="stanley_control_t" output="screen">
+    </node>
+</launch>
