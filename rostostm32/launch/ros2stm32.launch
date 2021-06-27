@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rostostm32" type="rostostm32_node" name="rostostm32_node" output="screen">
+    </node>
+</launch>
