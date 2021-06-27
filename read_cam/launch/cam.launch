@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="read_cam" type="read_cam.py" name="read_cam" output="screen">
+    </node>
+</launch>
